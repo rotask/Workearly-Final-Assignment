@@ -1,13 +1,84 @@
-# Workearly-Final-Assignment
-This project is designed to simulate a full workflow of a Data Analyst from getting data off the Database to manipulate it with the use of Python and Pandas module to present it through matplotlib module or Tableau.
+# Workearly Final Assignment
 
-The concept is that we are given a dataset that contains Liquor Sales in the state of Iowa in USA between 2012-2020 and we are asked to find the most popular item per zipcode and the percentage of sales per store in the period between 2016-2019.
+This project simulates the full workflow of a Data Analyst—from extracting data from a database, manipulating it using Python and Pandas to presenting insights through Matplotlib or Tableau.
 
-We are also asked to visualize the Data and present them in either a matplotlib format or in Tableau Public.
+## Project Overview
 
-Every calculation and transformation of Data has to happen through a Python Script.
+We are provided with a dataset containing liquor sales in the state of Iowa, USA, from 2012 to 2020. The objectives of this project are:
 
-This is my Tableau Public Dashboard that vizualizes the results: 
-https://public.tableau.com/app/profile/konstantinos.rotas/viz/FinalAssignmentLiquorstores-Rotas/Dashboard1
+- **Identify the most popular liquor item per zipcode.**
+- **Calculate the percentage of sales per store between 2016 and 2019.**
 
-<div class='tableauPlaceholder' id='viz1663242580642' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalAssignmentLiquorstores-Rotas&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalAssignmentLiquorstores-Rotas&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalAssignmentLiquorstores-Rotas&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>             
+All calculations and data transformations are performed using a Python script.
+
+## Data Visualization
+
+The results are visualized using Tableau Public. You can view the interactive dashboard here:
+
+[**Final Assignment Liquor Stores - Rotas**](https://public.tableau.com/app/profile/konstantinos.rotas/viz/FinalAssignmentLiquorstores-Rotas/Dashboard1)
+
+![Dashboard Preview](https://public.tableau.com/static/images/Fi/FinalAssignmentLiquorstores-Rotas/Dashboard1/1.png)
+
+## Technologies Used
+
+- **Python**
+- **Pandas**
+- **Matplotlib** (optional)
+- **Tableau Public**
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/rotask/Workearly-Final-Assignment.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd Workearly-Final-Assignment
+   ```
+
+3. **Install the required packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Python script:**
+
+   ```bash
+   python main.py
+   ```
+
+## Dataset
+
+The dataset used in this project includes Iowa liquor sales records from 2012 to 2020. It contains information such as:
+
+- Date of sale
+- Store details
+- Zipcode
+- Item description
+- Sale amount
+
+## Project Structure
+
+```
+├── data
+│   └── liquor_sales.csv
+├── notebooks
+│   └── data_analysis.ipynb
+├── outputs
+│   └── visualizations.png
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## Results
+
+- **Most Popular Item per Zipcode:** Identified using sales data aggregated by item and zipcode.
+- **Percentage of Sales per Store (2016-2019):** Calculated by summing sales per store and computing their percentage over total sales in that period.
