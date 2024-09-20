@@ -73,8 +73,11 @@ The dataset used in this project includes Iowa liquor sales records from 2012 to
 │   └── data_analysis.ipynb
 ├── outputs
 │   └── visualizations.png
+├── sql
+│   └── finance_liquor_sales.sql
 ├── main.py
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -82,3 +85,4 @@ The dataset used in this project includes Iowa liquor sales records from 2012 to
 
 - **Most Popular Item per Zipcode:** Identified using sales data aggregated by item and zipcode.
 - **Percentage of Sales per Store (2016-2019):** Calculated by summing sales per store and computing their percentage over total sales in that period.
+
